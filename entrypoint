@@ -1,0 +1,4 @@
+#!/bin/bash
+
+useradd -Md ${CWD} -s /bin/bash -u ${USER_ID} user
+su - user
